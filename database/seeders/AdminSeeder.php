@@ -21,7 +21,7 @@ class AdminSeeder extends Seeder
         $administrator = User::updateOrCreate(
             [
                 'name' => 'Administrator',
-                'email' => 'admin@nurfachmi.com',
+                'email' => 'admin@gmail.com',
             ],
             [
                 'password' => bcrypt('password'),
